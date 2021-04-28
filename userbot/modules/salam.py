@@ -34,6 +34,28 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Wa'alaikumsalam**")
 
+@register(outgoing=True, pattern=r"^\.sa(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Shalom Aleichem**")
+
+
+@register(outgoing=True, pattern="^.SA(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
+    sleep(2)
+    await typew.edit("**Shalom Aleichem**")
+
+
+@register(outgoing=True, pattern=r"^\.as(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Aleichem Shalom**")
+
+
+
 
 CMD_HELP.update(
     {
@@ -56,6 +78,12 @@ CMD_HELP.update(
         \n  •  **Function : **LU SEMUA NGENTOT 🔥\
         \n\n  •  **Syntax :** `.j`\
         \n  •  **Function : **NIMBRUNG GOBLOKK!!!🔥\
+        \n\n  •  **Syntax :** `.sa`\
+        \n  •  **Function : **SALAM SHALOM.\
+        \n\n  •  **Syntax :** `.SA`\
+        \n  •  **Function : **SALAM KENAL DAN SHALOM\
+        \n\n  •  **Syntax :** `.as`\
+        \n  •  **Function : **BALASAN SALAM SHALOM\
     "
     }
 )

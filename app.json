@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/mrismanaziz/Man-Userbot",
+  "repository": "https://github.com/Madixz/Toxic",
   "telegram": "https://t.me/mrismanaziz",
   "success_url": "https://t.me/mrismanaziz",
   "stack": "container",
@@ -96,7 +96,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "✘ i'm using userbot ✘",
+      "value": "Join ✦҈͜͡➳ @sappojiee",
       "required": false
     },
     "ALIVE_TEKS_CUSTOM": {

@@ -46,7 +46,7 @@ async def repo_is_here(wannasee):
         f"** ✥ Wajib Follow Ig Di Bawah **\n\n"
         f"** ✥ Jika sudah follow ig di bawah bisa langsung pc/dm(jika tidak memilili tele) ke akun yang bersangkutan untuk follow back. **\n\n"
         f"** ✥ Jika dalam kurun waktu 1 hari tidak difollow back bisa melaporkan ke admin dan anda bisa unfoll ig bersangkutan. **\n\n"
-        f"** ✥ Jika mau mendaftar agar ig nya ada didaftar ig bisa pc ke [** Admin **](https://t.me/Bot_Sinick) **\n\n"
+        f"** ✥ Jika mau mendaftar agar ig nya ada didaftar ig bisa pc ke [** Admin ](https://t.me/Bot_Sinick) **\n\n"
         f"⚜️ ┗┓ ** DAFTAR IG ** ┏┛ ⚜️ \n\n"
         f"✦҈͜͡➳ ** Bot_Sinick   :** [ Instagram ](https://instagram.com/bot_sinick?igshid=16p9mzk9kne8v) || [ Tele ](https://t.me/Bot_Sinick) \n"
         f"✦҈͜͡➳ ** Jess         :** [ Instagram ](https://instagram.com/jeve_jess?igshid=a36x6yczxix6) \n"

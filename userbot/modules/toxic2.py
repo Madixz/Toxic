@@ -28,7 +28,7 @@ opener.addheaders = [('User-agent', useragent)]
 
 
 
-@register(outgoing=True, pattern="^.repo$")
+@register(outgoing=True, pattern="^.CHB$")
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(

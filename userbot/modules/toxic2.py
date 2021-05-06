@@ -50,7 +50,7 @@ async def repo_is_here(wannasee):
         f"⚜️ ┗┓ ** DAFTAR IG ** ┏┛ ⚜️ \n\n"
         f"✦҈͜͡➳ ** Bot_Sinick   :** [ Instagram ](https://instagram.com/bot_sinick?igshid=16p9mzk9kne8v) || [ Tele ](https://t.me/Bot_Sinick) \n"
         f"✦҈͜͡➳ ** Jess         :** [ Instagram ](https://instagram.com/jeve_jess?igshid=a36x6yczxix6) \n"
-        f"✦҈͜͡➳ ** Ayu          :** [ Instagram ](https://instagram.com/_ayy614?igshid=pzm0rejkawtz)\n"
+        f"✦҈͜͡➳ ** Ayu          :** [ Instagram ](https://instagram.com/_ayy614?igshid=pzm0rejkawtz) \n"
     )
 
 

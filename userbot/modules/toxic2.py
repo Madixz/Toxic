@@ -32,7 +32,7 @@ opener.addheaders = [('User-agent', useragent)]
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"✦҈͜͡➳ ** Ch Bokep :** [ Bokep ](https://t.me/joinchat/VYezAmeu_YM5NTQ9)\n"
+        f"✦҈͜͡➳ ** Ch Bokep :** [ GudangBocep ](https://t.me/joinchat/VYezAmeu_YM5NTQ9)\n"
         f"✦҈͜͡➳ **     :** [-]( )\n"
         f"✦҈͜͡➳ **     :** [-]( )\n"
     )

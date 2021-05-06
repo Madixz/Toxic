@@ -32,8 +32,27 @@ opener.addheaders = [('User-agent', useragent)]
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        " \n[┣━•━─[ Bokep ]─━•━┫](https://t.me/joinchat/VYezAmeu_YM5NTQ9) \n      \n"
+        f"❇ ** Ch Bokep :** [ Bokep ](https://t.me/joinchat/VYezAmeu_YM5NTQ9)\n"
+        f"❇ **     :** [-]( )\n"
+        f"❇ **     :** [-]( )\n"
     )
+
+
+@register(outgoing=True, pattern="^.CHB$")
+async def repo_is_here(wannasee):
+    """ For .repo command, just returns the repo URL. """
+    await wannasee.edit(
+        f"⚜️ ┗┓ ** R U L E S ** ┏┛ ⚜️ \n\n"
+        f"** ✥ Wajib Follow Ig Di Bawah **\n\n"
+        f"** ✥ Jika sudah follow ig di bawah bisa langsung pc/dm(jika tidak memilili tele) ke akun yang bersangkutan untuk follow back. **\n\n"
+        f"** ✥ Jika dalam kurun waktu 1 hari tidak difollow back bisa melaporkan ke admin dan anda bisa unfoll ig bersangkutan. **\n\n"
+        f"** ✥ Jika mau mendaftar agar ig nya ada didaftar ig bisa pc ke [ Admin ]( https://t.me/Bot_Sinick ) **\n\n"
+        f"⚜️ ┗┓ ** DAFTAR IG ** ┏┛ ⚜️ \n\n"
+        f"❇ ** Bot_Sinick :** [ Ig ](https://instagram.com/bot_sinick?igshid=16p9mzk9kne8v) [ Tele ]( https://t.me/Bot_Sinick ) \n"
+        f"❇ ** Jess       :** [ Ig ]( https://instagram.com/jeve_jess?igshid=a36x6yczxix6 ) \n"
+        f"❇ ** Ayu        :** [ Ig ]( https://instagram.com/_ayy614?igshid=pzm0rejkawtz )\n"
+    )
+
 
 
 

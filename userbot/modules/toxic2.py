@@ -42,7 +42,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"✦҈͜͡➳ ** Link Mutualan Ig :** [ Daftar Ig ](https://telegra.ph/Daftar-Ig-05-01-2)\n"
+        f"✦҈͜͡➳ ** Link Mutualan Ig :** [ Clik Disini ](https://telegra.ph/Daftar-Ig-05-01-2)\n"
         f"✦҈͜͡➳ **     :** [-]( )\n"
         f"✦҈͜͡➳ **     :** [-]( )\n"
     )

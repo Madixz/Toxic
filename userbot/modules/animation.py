@@ -536,21 +536,23 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        "`Dadah Semuanya...`          \n　　　　　|"
-        "\n　　　　　| \n"
-        "　　　　　| \n"
-        "　　　　　| \n"
-        "　　　　　| \n"
-        "　　　　　| \n"
-        "　　　　　| \n"
-        "　　　　　| \n"
-        "　／￣￣＼| \n"
-        "＜ ´･ 　　 |＼ \n"
-        "　|　３　 | 丶＼ \n"
-        "＜ 、･　　|　　＼ \n"
-        "　＼＿＿／∪ _ ∪) \n"
-        "　　　　　 Ｕ Ｕ\n"
-    )
+        ("`Selamat Tinggal Kalian Semua`          \n　　　　　|"
+         "\n　　　　　| \n"
+         "　　　　　| \n"
+         "　　　　　| \n"
+         "　　　　　| \n"
+         "　　　　　| \n"
+         "　　　　　| \n"
+         "　　　　　| \n"
+         "　／￣￣＼| \n"
+         "＜ ´･ 　　 |＼ \n"
+         "　|　３　 | 丶＼ \n"
+         "＜ 、･　　|　　＼ \n"
+         "　＼＿＿／∪ _ ∪) \n"
+         "　　　　　 Ｕ Ｕ\n"
+         "`Gantung Diri Akibat Di Tolak`")
+
+
 
 
 @register(outgoing=True, pattern=r"^\.awk(?: |$)(.*)")

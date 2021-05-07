@@ -550,7 +550,7 @@ async def typewriter(typew):
         "＜ 、･　　|　　＼ \n"
         "　＼＿＿／∪ _ ∪) \n"
         "　　　　　 Ｕ Ｕ\n"
-        "`Gantung Diri Akibat Cinta Di Tolak`"
+        "`Gantung Diri Akibat Cinta Ku Di Tolak`"
     )
 
 

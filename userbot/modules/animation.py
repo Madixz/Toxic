@@ -536,21 +536,22 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        ("`Selamat Tinggal Kalian Semua`          \n　　　　　|"
-         "\n　　　　　| \n"
-         "　　　　　| \n"
-         "　　　　　| \n"
-         "　　　　　| \n"
-         "　　　　　| \n"
-         "　　　　　| \n"
-         "　　　　　| \n"
-         "　／￣￣＼| \n"
-         "＜ ´･ 　　 |＼ \n"
-         "　|　３　 | 丶＼ \n"
-         "＜ 、･　　|　　＼ \n"
-         "　＼＿＿／∪ _ ∪) \n"
-         "　　　　　 Ｕ Ｕ\n"
-         "`Gantung Diri Akibat Di Tolak`")
+        "`Selamat Tinggal Kalian Semua`          \n　　　　　|"
+        "\n　　　　　| \n"
+        "　　　　　| \n"
+        "　　　　　| \n"
+        "　　　　　| \n"
+        "　　　　　| \n"
+        "　　　　　| \n"
+        "　　　　　| \n"
+        "　／￣￣＼| \n"
+        "＜ ´･ 　　 |＼ \n"
+        "　|　３　 | 丶＼ \n"
+        "＜ 、･　　|　　＼ \n"
+        "　＼＿＿／∪ _ ∪) \n"
+        "　　　　　 Ｕ Ｕ\n"
+        "`Gantung Diri Akibat Cinta Di Tolak`"
+    )
 
 
 

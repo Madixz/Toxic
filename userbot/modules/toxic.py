@@ -132,8 +132,8 @@ async def _(event):
             "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n`Trying to Decrypt...`\n`Looking for telegram data : ✅`\n`Found folder sd/telegram : ✅\n`Searching for databases : ✅`\n`Found msgstore.db.crypt12 :  ✅`\nETA: 0m, 25s",
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `\n`Decryption successful!`\n`Looking for telegram data : ✅`\n`Found folder sd/telegram : ✅`\n`Searching for databases : ✅`\n`Found msgstore.db.crypt12 :  ✅`\nETA: 0m, 25s",
             "`Hacking... 84%\n█████████████████████▒▒▒▒ `\n`Scanning file...`\n`Looking for telegram data : ✅`\n`Found folder sd/telegram : ✅`\n`Searching for databases : ✅`\n`Found msgstore.db.crypt12 :  ✅`\n`Scanning file :  ✅`\nETA: 0m, 16s",
-            "`Hacking... 100%\n` 98% HACKED`",
-            "`Targeted Account Hacked...`\n\n`_______________________`\n`result ... :)`\n\n`Chatlist : ✅`\n`Calls : ✅`\n`Groups : ✅`\n `Contacts : ✅`\n` Channel : ✅`\n`Messages : ✅`\n`All API Tokens : ✅`\n\n`SUCCESSFUL HACK`"
+            "`Hacking... 100%\n█████████HACKED███████████`",
+            "`Targeted Account Hacked...`\n\n`_______________________`\n`result ... :)`\n\n`Chatlist : ✅`\n`Calls : ✅`\n`Groups : ✅`\n`Contacts : ✅`\n`Channel : ✅`\n`Messages : ✅`\n`All API Tokens : ✅`\n\n`SUCCESSFUL HACK`"
          ]
 
         for i in animation_ttl:

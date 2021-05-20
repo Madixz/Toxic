@@ -4,10 +4,10 @@ from functools import wraps
 from random import randint, sample
 from typing import List, Optional
 
-from pyrogram.errors import Forbidden, PeerIdInvalid
-from pyrogram.raw.functions.channels import GetFullChannel
-from pyrogram.raw.functions.messages import GetFullChat
-from pyrogram.raw.functions.phone import (
+from telethon.errors import Forbidden, PeerIdInvalid
+from telethon.raw.functions.channels import GetFullChannel
+from telethon.raw.functions.messages import GetFullChat
+from telethon.raw.functions.phone import (
     CreateGroupCall,
     DiscardGroupCall,
     EditGroupCallParticipant,
@@ -15,7 +15,7 @@ from pyrogram.raw.functions.phone import (
     GetGroupCall,
     InviteToGroupCall,
 )
-from pyrogram.raw.types import (
+from telethon.raw.types import (
     InputGroupCall,
     InputPeerChannel,
     InputPeerChat,

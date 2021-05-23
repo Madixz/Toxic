@@ -1,7 +1,7 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "name": "Bot_Sinick",
+  "description": "[Bot_Sinick] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/9f344120a3f886d83e212.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/Madixz/Toxic",
-  "telegram": "https://t.me/mrismanaziz",
-  "success_url": "https://t.me/mrismanaziz",
+  "telegram": "https://t.me/Bot_Sinick",
+  "success_url": "https://t.me/Bot_Sinick",
   "stack": "container",
   "env": {
     "API_KEY": {

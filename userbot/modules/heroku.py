@@ -216,7 +216,7 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `.usage`\
         \n  •  **Function : **Check Kouta Dyno Heroku\
         \n\n  •  **Syntax :** `.set var <nama var> <value>`\
-        \n  •  **Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel\n Setelah Menyetel Variabel Man-Userbot Akan Di Restart.\
+        \n  •  **Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel\n Setelah Menyetel Variabel Bot_Sinick Akan Di Restart.\
         \n\n  •  **Syntax :** `.get var or .get var <nama var>`\
         \n  •  **Function : **Dapatkan Variabel Yang Ada,Harap Gunakan Di Grup Private Anda! Ini Untuk Mengembalikan Informasi Heroku Pribadi Anda.\
         \n\n  •  **Syntax :** `.del var <nama var>`\

@@ -74,25 +74,6 @@ async def pingme(pong):
     )
 
 
-@register(outgoing=True, pattern="^.usange(?: |$)(.*)")
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("`Getting Information...`")
-    sleep(1)
-    await typew.edit(
-        "**Informasi Dyno Usage Heroku**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"-> `Penggunaan Dyno` **{ALIVE_NAME}**:\n"
-        f" ❉ **10 Jam - "
-        f"51 Menit - 0%**"
-        "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
-        "-> `Sisa Dyno Bulan Ini`:\n"
-        f" ❉ **9989 Jam - 9948 Menit "
-        f"- 99%**\n"
-        "╰━━━━━━━━━━━━━━━━━━━━╯"
-    )
-
-
 # @mixiologist
 
 
@@ -101,8 +82,6 @@ CMD_HELP.update(
         "ping": "**Plugin : **`ping`\
         \n\n  •  **Syntax :** `.ping`\
         \n  •  **Function : **Untuk menunjukkan ping userbot.\
-        \n\n  •  **Syntax :** `.usange`\
-        \n  •  **Function : **fake dyno.\
     "
     }
 )

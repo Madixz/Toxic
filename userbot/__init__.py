@@ -421,7 +421,6 @@ with bot:
         f"✣ **Owner Repo :** [Bot_Sinick](t.me/Bot_Sinick)\n"
         f"✣ **Repo :** [Bot_Sinick](https://github.com/Madixz/Toxic)\n")
         await tgbot.send_file(event.chat_id, logo, caption=text,
-
                                   buttons=[
                                       [
                                           custom.Button.url(

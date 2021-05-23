@@ -1,7 +1,7 @@
 {
   "name": "Bot_Sinick",
   "description": "[Bot_Sinick] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9f344120a3f886d83e212.jpg",
+  "logo": "https://telegra.ph/file/b51151fee775c8f4068f6.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -70,7 +70,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+      "value": "https://telegra.ph/file/b51151fee775c8f4068f6.jpg",
       "required": false
     },
     "ANTI_SPAMBOT": {

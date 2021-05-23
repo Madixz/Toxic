@@ -419,13 +419,14 @@ with bot:
         f"      Bot_Sinick Info \n\n"
         f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
         f"✣ **Owner Repo :** [Bot_Sinick](t.me/Bot_Sinick)\n"
-        f"✣ **Repo :** [Bot_Sinick](https://github.com/Madixz/Toxic)\n"
+        f"✣ **Repo :** [Bot_Sinick](https://github.com/Madixz/Toxic)\n")
         await tgbot.send_file(event.chat_id, logo, caption=text,
+
                                   buttons=[
                                       [
                                           custom.Button.url(
-                                              text="⛑ Group Support ⛑",
-                                              url="https://t.me/SharingUserbot"
+                                              text="⛑ Owner ⛑",
+                                              url="https://t.me/Bot_Sinick"
                                           )
                                       ]
                                   ]

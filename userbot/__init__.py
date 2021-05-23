@@ -185,7 +185,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", "ini stikerku")
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/b51151fee775c8f4068f6.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -409,7 +409,7 @@ with bot:
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
-        logo = "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+        logo = "https://telegra.ph/file/b51151fee775c8f4068f6.jpg"
 
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):

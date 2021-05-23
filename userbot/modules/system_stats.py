@@ -71,14 +71,14 @@ async def amireallyalive(alive):
     await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"╔═════════════╗ \n"
+        f"╔════════════════════╗ \n"
         f"╠ ✥ Master     => `{DEFAULTUSER}` \n"
         f"╠ ✥ Modules   => `{len(modules)} Modules` \n"
         f"╠ ✥ Bot Version     => `{BOT_VER}` \n"
         f"╠ ✥ Python Version     => `{python_version()}` \n"
         f"╠ ✥ Telethon Version   => `{version.__version__}` \n"
         f"╠ ✥ Bot Uptime     => `{uptime}` \n"
-        f"╚═════════════╝ \n\n"
+        f"╚════════════════════╝  \n\n"
         "    **[𝗢𝘄𝗻𝗲𝗿](t.me/Bot_Sinick)**"
     )
     if ALIVE_LOGO:

@@ -77,8 +77,8 @@ async def amireallyalive(alive):
         f"╠ ✥ Bot Version     => `{BOT_VER}` \n"
         f"╠ ✥ Python Version     => `{python_version()}` \n"
         f"╠ ✥ Telethon Version   => `{version.__version__}` \n"
-        f"╠ ✥ Bot Uptime     => `{uptime}` \n\n"
-        f"╚═════════════╝ \n"
+        f"╠ ✥ Bot Uptime     => `{uptime}` \n"
+        f"╚═════════════╝ \n\n"
         "    **[𝗢𝘄𝗻𝗲𝗿](t.me/Bot_Sinick)**"
     )
     if ALIVE_LOGO:

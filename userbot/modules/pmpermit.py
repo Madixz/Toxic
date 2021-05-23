@@ -30,7 +30,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 DEF_UNAPPROVED_MSG = (
     f"✘ WARNING ✘ \n\n"
 
-    f"Jangan Spam 8x Chat Bakal Di Blok Otomatis Oleh Saya { Penjaga Room Chat } Tunggu Sampai Bos Besar {DEFAULTUSER} Menyetujui, \n\n"
+    f"Jangan Spam 8x Chat Bakal Di Blok Otomatis Oleh Saya ( Penjaga Room Chat ) Tunggu Sampai Bos Besar {DEFAULTUSER} Menyetujui, \n\n"
 
     f"Kalau Penting Bisa Di Jelaskan Kepentingannya. \n\n"
 

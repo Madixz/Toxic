@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
-# Pengguna Man-Userbot
+# Pengguna Bot_Sinick
 """ Userbot initialization. """
 
 import os
@@ -172,7 +172,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Man-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Toxic")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "0.5.1")
@@ -338,7 +338,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🔥✘ Man-Userbot Berhasil Di Aktifkan ✘🔥```")
+    await bot.send_message(BOTLOG_CHATID, "```❁ Bot_Sinick Berhasil Di Aktifkan ❁```")
     return
 
 with bot:
@@ -415,13 +415,12 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__ 🔥 **Man-Userbot** 🔥\n\n"
-                f"       __Thanks For Using me__\n\n"
-                f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
-                f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
-                f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-                f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n")
-            await tgbot.send_file(event.chat_id, logo, caption=text,
+                f"** Hey **\n\n"
+        f"      Bot_Sinick Info \n\n"
+        f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
+        f"✣ **Owner Repo :** [Bot_Sinick](t.me/Bot_Sinick)\n"
+        f"✣ **Repo :** [Bot_Sinick](https://github.com/Madixz/Toxic)\n"
+        await tgbot.send_file(event.chat_id, logo, caption=text,
                                   buttons=[
                                       [
                                           custom.Button.url(
@@ -441,8 +440,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**✥ Jumlah Module Yang Tersedia :** `{}` **Module**\n               \n**✥ Daftar Modul Man-Userbot :** \n".format(
-                        "**✗ Man-Userbot Main Menu ✗**",
+                    text="{}\n\n**✥ Jumlah Module Yang Tersedia :** `{}` **Module**\n               \n**❁ Daftar Modul Bot_Sinick :** \n".format(
+                        "**❁ Bot_Sinick Main Menu ❁**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -451,33 +450,34 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Man - Userbot",
-                    url="https://t.me/SharingUserbot",
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Grup Support :** @SharingUserbot\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    description="Repository Bot_Sinick",
+                    url="https://t.me/Bot_Sinick",
+                    text="**Bot_Sinick**\n➖➖➖➖➖➖➖➖➖➖\n❁ **Owner Repo :** [Bot_Sinick](https://t.me/Bot_Sinick)\n❁ **Repository :** [Bot_Sinick](https://github.com/Madixz/Toxic)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Support",
-                                "https://t.me/SharingUserbot"),
+                                "GabutPc",
+                                "https://t.me/Bot_Sinick"),
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/mrismanaziz/Man-Userbot")],
+                                "https://github.com/Madixz/Toxic")],
                     ],
                     link_preview=False)
             else:
                 result = builder.article(
-                    title="✗ Man-Userbot ✗",
-                    description="Man - UserBot | Telethon",
-                    url="https://t.me/SharingUserbot",
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Grup Support :** @SharingUserbot\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    title="❁ Bot_Sinick ❁",
+                    description="Bot_Sinick | Telethon",
+                    url="https://t.me/Bot_Sinick",
+                     text="**Bot_Sinick**\n➖➖➖➖➖➖➖➖➖➖\n❁ **Owner Repo :** [Bot_Sinick](https://t.me/Bot_Sinick)\n❁ **Repository :** [Bot_Sinick](https://github.com/Madixz/Toxic)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Support",
-                                "https://t.me/SharingUserbot"),
+                                "GabutPc",
+                                "https://t.me/Bot_Sinick"),
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/mrismanaziz/Man-Userbot")],
+                                "https://github.com/Madixz/Toxic")],
+           
                     ],
                     link_preview=False,
                 )

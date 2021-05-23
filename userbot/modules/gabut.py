@@ -144,7 +144,7 @@ async def typewriter(typew):
     await typew.edit("`Getting Information...`")
     sleep(1)
     await typew.edit(
-        "**Informasi Dyno ★**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
+        "**Informasi Dyno Heroku**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
         f"-> `Penggunaan Dyno` **{ALIVE_NAME}**:\n"
         f" ❉ **10 Jam - "
         f"51 Menit - 0%**"
